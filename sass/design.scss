@@ -1,0 +1,256 @@
+.float{
+    background-color: darkslateblue;
+    border: none;
+    color: white;
+    width: fit-content;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin-left:10px;
+    margin-top:5px;
+  }
+  .invisibleImage{
+    display: none;
+}
+#generatePDFButton{
+    visibility: visible;
+}
+#generatePDFButton:active{
+    background-color: blue;
+}
+
+body{
+    background-color: papayawhip;
+    margin-top: 0px;
+    position:relative;
+    .head{
+        display: flex;
+        height: 170px;
+        position: relative;
+        margin-bottom: 30px;
+        margin-top:15px;
+        margin-left: 30px;
+        margin-right: 30px;
+        background-color: white;
+        flex-direction: column;
+        align-items: flex-start;
+        h1{
+            margin-left:10px;
+            color:black;
+            font-size: x-large;
+            margin-bottom:0;
+            }
+    }
+
+}
+
+.flex_container{
+    display:flex;
+    justify-content: space-evenly;
+    margin-bottom:15px;
+}
+
+
+.container{
+    background-color: white;
+    width: 300px; //300px je width slike
+    height: 650px; //400px je height slike
+    border:4px black solid;
+    text-align: center;
+    padding-bottom: 10px;
+    img{
+        width:300px;
+        height:400px;
+        border-bottom: 4px black solid;
+    }
+    button{
+        background-color: dodgerblue;
+        border: none;
+        color: white;
+        width: fit-content;
+        padding: 16px 32px;
+        text-align: center;
+        font-size: 16px;
+        opacity: 0.8;
+        transition: 0.3s;
+        text-decoration: none;
+        cursor: pointer;
+        border-radius: 5%;
+        span{
+            visibility: hidden;
+        }
+      }
+    button:hover {opacity: 1} 
+}
+
+.body_color{
+    background-color: aliceblue ;
+    margin-left: 35px;
+    margin-right: 35px;
+    padding-bottom:10px;
+    padding-top:15px;
+  }
+  #naslov {
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer{
+    text-align: center;
+}
+
+.off_screen{
+    background-color: bisque;
+    margin-left:35px;
+    margin-right:35px;
+    bottom:93.5%;
+    min-width: 50%;
+    left:25%;
+    padding-top: 15px;
+    padding-bottom:15px;
+    z-index: 99999;
+    position: fixed;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.centriraj{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+
+@media only screen and (max-width: 1028px) and (min-width: 768px) {
+    .container{
+        width: 200px; //300px je width slike
+        height: 450px; //400px je height slike
+        display:block;
+        img{
+            width:200px;
+            height:300px;
+        }
+    h2{
+        font-size: medium;
+    }
+    h3{
+        font-size:medium;
+    }
+    button{
+        padding: 4px 8px;
+    }
+    }
+
+    body{
+        background-color: papayawhip;
+        margin-top: 0px;
+        position:relative;
+        .head{
+            display: flex;
+            height: 165px;
+            position: relative;
+            margin-bottom: 30px;
+            margin-top:15px;
+            margin-left: 30px;
+            margin-right: 30px;
+            background-color: white;
+            flex-direction: column;
+            align-items: flex-start;
+            h1{
+                margin-left:10px;
+                color:black;
+                font-size: x-large;
+                margin-bottom:0;
+                }
+        }
+    
+    }
+
+
+  }
+
+  @media only screen and (max-width: 767px) and (min-width: 320px) {
+    #generatePDFButton{
+        visibility: hidden;
+    }
+    .body_color{
+        background-color: aliceblue ;
+        margin-left: 35px;
+        margin-right: 35px;
+        padding-bottom:10px;
+        padding-top:15px;
+        padding-left:40px;
+        padding-right:40px;
+      }
+    html{
+        margin:5px;
+    }
+    .flex_container{
+        display:block;
+        text-align: center;
+    }
+    .center{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    height: max-content;    }
+
+    #naslov {
+        font-size: large;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    body{
+        .head{
+            display: flex;
+            height: 128px;
+            position: relative;
+            margin-bottom: 30px;
+            margin-top:15px;
+            margin-left: 0px;
+            margin-right: 0px;
+            background-color: white;
+            flex-direction: column;
+            align-items: center;
+            h1{
+                margin-left:10px;
+                color:black;
+                font-size: medium;
+                margin-bottom:0;
+                }
+        }
+    }
+
+  }
+  @media only screen and (max-width: 366px){
+    #generatePDFButton{
+        visibility: hidden;
+    }
+    #naslov {
+        font-size: small;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    body{
+        .head{
+            display: flex;
+            height: 128px;
+            position: relative;
+            margin-bottom: 30px;
+            margin-top:15px;
+            margin-left: 0px;
+            margin-right: 0px;
+            background-color: white;
+            flex-direction: column;
+            align-items: center;
+            h1{
+                margin-left:10px;
+                color:black;
+                font-size: smaller;
+                margin-bottom:0;
+                }
+        }
+    }
+  }
