@@ -1,0 +1,56 @@
+[
+
+{
+"Name" : "Se7en",
+"Genre" : "Mystery",
+"Year" : 1995,
+"IMDB" : 8.6,
+"Director" : "D. Fincher",
+"Image" : "https://m.media-amazon.com/images/M/MV5BZDgyZmY5MmItY2I3Ny00NjA4LWFhNmItMGQ4ZGJhZDk5YjU3XkEyXkFqcGdeQXVyMTAzMDM4MjM0._V1_.jpg"
+},
+
+{
+"Name" : "Les Miserables",
+"Genre" : "History",
+"Year" : 1998,
+"IMDB" : 7.4,
+"Director" : "B. August",
+"Image" : "https://flxt.tmsimg.com/assets/p20975_p_v8_av.jpg"
+},
+
+{
+"Name" : "Babylon",
+"Genre" : "Drama",
+"Year" : 2022,
+"IMDB" : 7.1,
+"Director" : "D. Chazzele",
+"Image" : "https://m.media-amazon.com/images/I/71oRuadhIbL._AC_UF894,1000_QL80_.jpg"
+},
+{
+"Name" : "Ex Machina",
+"Genre" : "Sci-Fi",
+"Year" : 2014,
+"IMDB" : 7.7,
+"Director" : "A. Garland",
+"Image" : "https://m.media-amazon.com/images/M/MV5BMTUxNzc0OTIxMV5BMl5BanBnXkFtZTgwNDI3NzU2NDE@._V1_FMjpg_UX1000_.jpg"
+},
+{
+"Name" : "Pulp Fiction",
+"Genre" : "Drama",
+"Year" : 1994,
+"IMDB" : 8.9,
+"Director" : "Q. Tarantino",
+"Image" : "https://flxt.tmsimg.com/assets/p15684_p_v10_am.jpg"
+},
+{
+"Name" : "Rosemary's Baby",
+"Genre" : "Action",
+"Year" : 1968,
+"IMDB" : 8.0,
+"Director" : "R. Polanski",
+"Image" : "https://m.media-amazon.com/images/I/A1Vmrrc2S+L._AC_UF894,1000_QL80_.jpg"
+},
+{"Name":"Gladiator","Genre":"Action","Year":2000,"IMDB":"8.5","Director":"R. Scott","Image":"https://m.media-amazon.com/images/M/MV5BMDliMmNhNDEtODUyOS00MjNlLTgxODEtN2U3NzIxMGVkZTA1L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg"}
+,
+{"Name":"Truman's Show","Genre":"Comedy","Year":1998,"IMDB":"8.2","Director":"P. Weir", "Image":"https://play-lh.googleusercontent.com/zrMw980J--wmwL6ksnh5dCV78sG9u2ICdIFoUNNLKCD_FShGtGDrK4VtGd-1IH72Gt8XbZtfgDdfU2Y7zpg"}
+]

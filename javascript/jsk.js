@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", (event) => {
-
 const movieString = "1. Vertigo,8.3,1958,2. Rear Window,8.5,1954,3. Gone With The Wind,8.2,1939,4. Shutter Island,8.2,2010,5. Wolf of the Wall Street,8.2,2013,6. Some Like it Hot,8.2,1959,7. Taxi Driver,8.2,1976,8. American Psycho,7.6,2000,9. Once Upon a Time in Hollywood,7.6,2019,10. Once Upon a Time in Wild West,8.5,1968,11. Dial M for Murder,8.2,1954,12. Coraline,7.7,2009,13. The Searchers,7.9,1956,14. The Hills Have Eyes,6.4,2006,15. Le salaire de la peur,8.2,1953"
 var arr = movieString.split(","); //Array sa svim podacima (splitan)
 

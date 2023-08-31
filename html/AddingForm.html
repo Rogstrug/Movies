@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  >    <meta charset="UTF-8">
+    <title>Best Movies</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="images/icon.png">
+    <link rel="stylesheet" href="sass/forma.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <form method="POST" action="/api/dodaj">
+
+    <div class="row">
+      <div class="col-25">
+        <label for="Name">Name:</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="Name" name="Name" placeholder="Name of the movie...">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-25">
+        <label for="Genre">Genre</label>
+      </div>
+      <div class="col-75">
+        <select id="Genre" name="Genre">
+          <option value="Horror">Horror</option>
+          <option value="Action">Action</option>
+          <option value="Drama">Drama</option>
+          <option value="Comedy">Comedy</option>
+          <option value="Thriller">Thriller</option>
+          <option value="Western">Western</option>
+          <option value="Sci-Fi">Sci-Fi</option>
+          <option value="History">History</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-25">
+        <label for="Year">Year:</label>
+      </div>
+      <div class="col-75">
+        <input type="number" step="1" id="Year" name="Year" placeholder="The year the film was released">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-25">
+        <label for="IMDB">IMDB Rating: </label>
+      </div>
+      <div class="col-75">
+        <input type="number" step="0.1" id="IMDB" name="IMDB" placeholder="Rating of a movie on the IMDB page">
+      </div>
+    </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label for="Director">Director:</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="Director" name="Director" placeholder="Name of the director...">
+        </div>
+      </div>
+    <br>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+    </form>
+  </div>
+</body>
+</html>
